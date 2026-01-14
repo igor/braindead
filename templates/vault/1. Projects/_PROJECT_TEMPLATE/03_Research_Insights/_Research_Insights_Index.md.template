@@ -1,0 +1,90 @@
+---
+type: index
+scope: {SCOPE}  # client or internal
+project: "{PROJECT_NAME}"
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags: [research, index, overview]
+---
+
+# Research Insights Index
+
+This is the main research repository for {PROJECT_TITLE}. All primary and secondary research findings are organized here.
+
+## Quick Navigation
+
+### 📊 [{RESEARCH_CATEGORY_1}]({FOLDER_1}/)
+
+{BRIEF_DESCRIPTION}
+
+- {SUBTOPIC_1}
+- {SUBTOPIC_2}
+- {SUBTOPIC_3}
+
+### 👥 [{RESEARCH_CATEGORY_2}]({FOLDER_2}/)
+
+{BRIEF_DESCRIPTION}
+
+- **{SUBFOLDER_1}/** - {DESCRIPTION}
+- **{SUBFOLDER_2}/** - {DESCRIPTION}
+- **{SUBFOLDER_3}/** - {DESCRIPTION}
+
+### 🔍 [{RESEARCH_CATEGORY_3}]({FOLDER_3}/)
+
+{BRIEF_DESCRIPTION}
+
+- **{SUBFOLDER_1}/** - {DESCRIPTION}
+- **{SUBFOLDER_2}/** - {DESCRIPTION}
+
+### 🚀 [{RESEARCH_CATEGORY_4}]({FOLDER_4}/)
+
+{BRIEF_DESCRIPTION}
+
+- {SUBTOPIC_1}
+- {SUBTOPIC_2}
+- {SUBTOPIC_3}
+
+### ⚙️ [{RESEARCH_CATEGORY_5}]({FOLDER_5}/)  *(Optional)*
+
+{BRIEF_DESCRIPTION}
+
+- {SUBTOPIC_1}
+- {SUBTOPIC_2}
+
+## Research Methodology
+
+Our research combines:
+
+1. **{METHODOLOGY_1}** - See [02_Research_Frameworks](../02_Research_Frameworks/)
+2. **{METHODOLOGY_2}** - {BRIEF_DESCRIPTION}
+3. **{METHODOLOGY_3}** - {BRIEF_DESCRIPTION}
+4. **{METHODOLOGY_4}** - {BRIEF_DESCRIPTION}
+5. **{METHODOLOGY_5}** - {BRIEF_DESCRIPTION}
+
+## How to Use This Research
+
+**For Product Development:**
+
+- Start with [{CATEGORY}]({FOLDER}/) to understand {PURPOSE}
+- Review [{CATEGORY}]({FOLDER}/) for {PURPOSE}
+- Check [{CATEGORY}]({FOLDER}/) for {PURPOSE}
+
+**For Strategy:**
+
+- Begin with [{CATEGORY}]({FOLDER}/) for {PURPOSE}
+- Explore [{CATEGORY}]({FOLDER}/) for {PURPOSE}
+- Reference [04_Strategy_and_Planning](../04_Strategy_and_Planning/) for strategic direction
+
+**For Client Presentations:**
+
+- See [01_Strategic_Foundation](../01_Strategic_Foundation/) for synthesized insights
+- Use data from [05_Data_and_Exports](../05_Data_and_Exports/) for charts (if applicable)
+- Reference specific research as needed for backup
+
+## Data Files  *(If applicable)*
+
+All CSV and structured data exported to [05_Data_and_Exports](../05_Data_and_Exports/):
+
+- {DATA_FILE_1}
+- {DATA_FILE_2}
+- {DATA_FILE_3}

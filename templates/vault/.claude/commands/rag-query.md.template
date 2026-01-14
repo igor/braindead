@@ -1,0 +1,91 @@
+---
+description: Query the {COLLECTION_NAME} RAG collection
+---
+
+# {COLLECTION_NAME} Query Command
+
+Search the {COLLECTION_NAME} collection for relevant information.
+
+## Collection Information
+
+**Description:** {COLLECTION_DESCRIPTION}
+
+**Purpose:** {COLLECTION_PURPOSE}
+
+**Recommended n_results:** {N_RESULTS_RECOMMENDED}
+
+**Source:** {SOURCE_DESCRIPTION}
+
+## Query Instructions
+
+### 1. Understand the Request
+
+Determine what the user is looking for in the {COLLECTION_NAME} collection.
+
+### 2. Craft the Query
+
+Create a clear, specific query that will retrieve relevant results.
+
+**Query tips:**
+- Use specific terminology from the {DOMAIN}
+- Include context if needed
+- For exploratory queries, use {HIGH_N_RESULTS} results
+- For focused queries, use {LOW_N_RESULTS} results
+
+### 3. Execute the Query
+
+Use the MCP ChromaDB tool to query the collection:
+
+```
+collection_name: {COLLECTION_NAME}
+query_texts: ["{YOUR_QUERY}"]
+n_results: {N_RESULTS}
+```
+
+### 4. Present Results
+
+Format the results for the user:
+
+**Found {X} relevant results from {COLLECTION_NAME}:**
+
+1. **{RESULT_TITLE}** (Source: {SOURCE})
+   - {KEY_INSIGHT}
+   - {KEY_INSIGHT}
+
+2. **{RESULT_TITLE}** (Source: {SOURCE})
+   - {KEY_INSIGHT}
+
+[etc.]
+
+### 5. Synthesize if Needed
+
+If the user asked a specific question, synthesize the results into an answer rather than just listing them.
+
+## Example Queries
+
+**Exploratory:**
+- "What {TOPIC} are covered in {COLLECTION_NAME}?"
+- "Overview of {DOMAIN_AREA}"
+- "All content related to {BROAD_TOPIC}"
+
+**Focused:**
+- "Specific technique for {SPECIFIC_PROBLEM}"
+- "Definition of {SPECIFIC_TERM}"
+- "{SPECIFIC_METHODOLOGY} approach"
+
+## Collection-Specific Guidance
+
+<!-- Add collection-specific tips here -->
+
+**{CUSTOM_GUIDANCE_1}:**
+{DESCRIPTION}
+
+**{CUSTOM_GUIDANCE_2}:**
+{DESCRIPTION}
+
+## Related Collections
+
+If the query might be better served by another collection, suggest:
+
+- **{RELATED_COLLECTION_1}**: {WHEN_TO_USE}
+- **{RELATED_COLLECTION_2}**: {WHEN_TO_USE}

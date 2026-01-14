@@ -1,0 +1,38 @@
+# Environment variables
+.env
+.env.local
+
+# Personal settings
+settings.local.json
+**/settings.local.json
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Obsidian
+.obsidian/workspace*
+.obsidian/graph.json
+
+# Claude Code
+.claude/cache/
+.claude/debug/
+.claude/file-history/
+.claude/memory/
+.claude/plans/
+.claude/session-env/
+.claude/todos/
+.claude/history.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Private examples (if you create them during development)
+examples/private/

@@ -1,0 +1,90 @@
+# RAG Collections Registry - SINGLE SOURCE OF TRUTH
+#
+# This file defines ALL RAG collections in your system.
+# Other documentation should REFERENCE this file, not duplicate it.
+#
+# Replace all {PLACEHOLDERS} with your actual values before use.
+
+infrastructure:
+  host: {RAG_HOST}  # e.g., localhost, remote-server.local, or IP
+  port: {RAG_PORT}  # e.g., 8000
+  ollama_version: "{OLLAMA_VERSION}"  # e.g., 0.13.5
+  embedding_model: {EMBEDDING_MODEL}  # e.g., nomic-embed-text
+  rag_path: {RAG_PATH}  # e.g., /path/to/rag/storage
+
+collections:
+  # Example 1: Main vault collection
+  {COLLECTION_NAME_1}:
+    description: "{DESCRIPTION}"  # e.g., "Complete Obsidian vault with semantic chunking"
+    purpose: "{PURPOSE}"  # e.g., "General knowledge base - search for any vault content"
+    source_paths:
+      - "{SOURCE_PATH_1}"  # e.g., "path/to/vault"
+      - "{SOURCE_PATH_2}"  # Optional: additional paths
+    ingest_script: {INGEST_SCRIPT}  # e.g., ingest_vault.py
+    slash_command: /{COMMAND_NAME}  # e.g., /vault
+    chunks: 0  # Update after first indexing
+    files: 0  # Update after first indexing
+    n_results_recommended: 15-20  # Adjust based on collection density
+    notes: "{NOTES}"  # Any relevant context
+    last_indexed: YYYY-MM-DD
+
+  # Example 2: Methodology/book collection
+  {COLLECTION_NAME_2}:
+    description: "{METHODOLOGY_DESCRIPTION}"  # e.g., "Facilitation methodologies from trusted book"
+    purpose: "{METHODOLOGY_PURPOSE}"  # e.g., "Query methodologies conversationally instead of page-flipping"
+    source_paths:
+      - "{METHODOLOGY_PATH}"  # e.g., "3. Resources/Methodologies/BookName"
+    ingest_script: {METHODOLOGY_SCRIPT}  # e.g., ingest_methodology.py
+    slash_command: /{METHODOLOGY_COMMAND}  # e.g., /gamestorming
+    chunks: 0
+    files: 0
+    n_results_recommended: 10-15
+    notes: "{METHODOLOGY_NOTES}"  # e.g., "Categories: Problem-Solving, Planning, etc."
+    last_indexed: YYYY-MM-DD
+
+  # Example 3: Project-specific collection
+  {PROJECT_COLLECTION}:
+    description: "{PROJECT_DESCRIPTION}"  # e.g., "Specific client project research and insights"
+    purpose: "{PROJECT_PURPOSE}"  # e.g., "Targeted queries for project content"
+    source_paths:
+      - "{PROJECT_PATH}"  # e.g., "1. Projects/Client_ProjectName"
+    ingest_script: null  # Can be null if created dynamically
+    slash_command: /{PROJECT_COMMAND}  # e.g., /clientname
+    chunks: 0
+    files: 0
+    n_results_recommended: 3-5  # Lower for dense, focused content
+    notes: "{PROJECT_NOTES}"
+    last_indexed: YYYY-MM-DD
+
+# Re-indexing commands
+# Adjust these commands based on your infrastructure setup
+reindex_commands:
+  all_collections: |
+    {REINDEX_ALL_COMMAND}
+    # Example for remote server:
+    # ssh {RAG_HOST} 'cd {RAG_PATH} && source venv/bin/activate && \
+    #   python scripts/ingest_vault.py && \
+    #   python scripts/ingest_methodology.py'
+
+    # Example for localhost:
+    # cd {RAG_PATH} && source venv/bin/activate && python scripts/ingest_all.py
+
+  single_collection: |
+    {REINDEX_SINGLE_COMMAND}
+    # Example: ssh {RAG_HOST} 'cd {RAG_PATH} && source venv/bin/activate && python scripts/ingest_{COLLECTION}.py'
+
+# Maintenance notes
+maintenance:
+  when_to_reindex:
+    - "After major vault changes (100+ files)"
+    - "When search results are stale"
+    - "Monthly maintenance"
+    - "{YOUR_CUSTOM_TRIGGER}"
+
+  adding_new_collection:
+    - "1. Create ingest script at {RAG_PATH}/scripts/"
+    - "2. Create slash command in .claude/commands/"
+    - "3. Update THIS FILE with new collection entry"
+    - "4. Run initial indexing"
+    - "5. Verify with /health endpoint"
+    - "6. Update chunks/files counts after indexing"

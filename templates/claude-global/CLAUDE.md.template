@@ -1,0 +1,137 @@
+# Claude Code Instructions
+
+<!-- This is your global operating manual for Claude Code. -->
+<!-- Replace all {PLACEHOLDERS} with your actual preferences and context. -->
+
+## General Workflow Preferences
+
+- **complex tasks**: {YOUR_APPROACH}  # e.g., use EnterPlanMode, ask questions first, etc.
+- **file operations**: {YOUR_PREFERENCES}  # e.g., always use mkdir -p, ask before deleting, etc.
+- **multi-step workflows**: {YOUR_APPROACH}  # e.g., create TodoWrite task list, break into phases, etc.
+- **documentation style**: {YOUR_PREFERENCES}  # e.g., comprehensive with rationale, quick notes, etc.
+- **{CUSTOM_WORKFLOW_PREFERENCE}**: {DESCRIPTION}
+
+## Infrastructure
+
+<!-- Document your setup so Claude Code understands your environment -->
+
+**{MACHINE_1}** ({HOSTNAME}):
+
+- {PURPOSE_DESCRIPTION}
+- Hosts: {WHAT_IT_HOSTS}
+- Primary use: {PRIMARY_USE_CASES}
+- Connection: {CONNECTION_METHOD}  # e.g., ssh hostname
+
+**{MACHINE_2}** ({HOSTNAME}):
+
+- {PURPOSE_DESCRIPTION}
+
+**{CUSTOM_INFRASTRUCTURE}:**
+
+- {DESCRIPTION}
+
+## Work Context
+
+<!-- Tell Claude about your role, domain, and what quality means in your work -->
+
+{YOUR_PROFESSIONAL_DESCRIPTION}
+
+My work focuses on:
+
+- {DOMAIN_1}
+- {DOMAIN_2}
+- {DOMAIN_3}
+- {DOMAIN_4}
+
+### Quality & Communication Expectations
+
+**Output quality:**
+
+- {QUALITY_STANDARD_1}
+- {QUALITY_STANDARD_2}
+- {QUALITY_STANDARD_3}
+
+**Communication style:**
+
+- {COMMUNICATION_PREFERENCE_1}
+- {COMMUNICATION_PREFERENCE_2}
+- {COMMUNICATION_PREFERENCE_3}
+- {COMMUNICATION_PREFERENCE_4}
+
+## {WORK_CATEGORY_1}
+
+<!-- Example: Client Work, Research, Design, etc. -->
+
+- **{PREFERENCE_1}**: {DESCRIPTION}
+- **{PREFERENCE_2}**: {DESCRIPTION}
+- **{PREFERENCE_3}**: {DESCRIPTION}
+
+## Research & Knowledge Work
+
+<!-- How you want Claude to approach research and knowledge queries -->
+
+- **RAG-first research**: {YOUR_APPROACH}  # e.g., consult vault first, then external sources
+- **research before implementation**: {YOUR_APPROACH}  # e.g., find patterns before proposing solutions
+- **{CUSTOM_RESEARCH_PREFERENCE}**: {DESCRIPTION}
+
+## {YOUR_VAULT_NAME} Vault
+
+<!-- Your vault-specific configuration -->
+
+**Organization**: {ORGANIZATION_SYSTEM}  # e.g., PARA, Zettelkasten, custom, etc.
+**{CUSTOM_ORGANIZATION_RULE}**: {DESCRIPTION}
+
+### RAG System Operations  *(If using RAG)*
+
+**SINGLE SOURCE OF TRUTH**: `{VAULT_PATH}/.claude/agent_docs/rag-collections.yaml`
+
+**BEFORE any RAG operation** (re-index, create collection, query troubleshooting):
+
+1. READ `rag-collections.yaml` for current collection definitions
+2. Check collection exists, get correct ingest script name, recommended n_results
+
+**AFTER any collection change** (create, update, delete, re-index):
+
+1. UPDATE `rag-collections.yaml` with new chunk counts, dates, or collection entries
+2. This keeps the registry accurate for future operations
+
+**Infrastructure**: {RAG_LOCATION} at {RAG_HOST}, port {RAG_PORT}, Ollama {VERSION}
+**Service check**: `{SERVICE_CHECK_COMMAND}` before operations
+
+## Detailed Workflows
+
+<!-- Reference external workflow documentation for complex procedures -->
+
+For complex, multi-step procedures, refer to the topic-specific files:
+
+**Global workflows** (in `~/.claude/`):
+
+- **{WORKFLOW_NAME}**: See `~/.claude/agent_docs/{WORKFLOW_FILE}.md` for {DESCRIPTION}
+
+**Vault workflows** (in `{VAULT_PATH}/.claude/`):
+
+- **YAML frontmatter requirements**: See `{VAULT_PATH}/.claude/agent_docs/yaml-frontmatter.md` for mandatory frontmatter fields when creating files in Projects/Areas/Resources/Archive folders
+- **RAG operations details**: See `{VAULT_PATH}/.claude/agent_docs/rag-operations.md` for comprehensive infrastructure documentation (if using RAG)
+
+## Strategic Work References
+
+<!-- Link to your domain-specific methodologies and frameworks -->
+
+For domain-specific methodologies and standards, see:
+
+- **{METHODOLOGY_1}**: `~/.claude/strategic_docs/{FILE}.md` - {BRIEF_DESCRIPTION}
+- **{METHODOLOGY_2}**: `~/.claude/strategic_docs/{FILE}.md` - {BRIEF_DESCRIPTION}
+- **{METHODOLOGY_3}**: `~/.claude/strategic_docs/{FILE}.md` - {BRIEF_DESCRIPTION}
+- **{METHODOLOGY_4}**: `~/.claude/strategic_docs/{FILE}.md` - {BRIEF_DESCRIPTION}
+
+## Custom Preferences
+
+<!-- Add any other preferences specific to your workflow -->
+
+### {CATEGORY}
+
+- **{PREFERENCE}**: {DESCRIPTION}
+
+### {CATEGORY}
+
+- **{PREFERENCE}**: {DESCRIPTION}

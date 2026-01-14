@@ -1,0 +1,124 @@
+---
+type: reference
+scope: {SCOPE}  # client or internal
+project: "{PROJECT_NAME}"
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags: [project-overview, {TAG1}, {TAG2}, {TAG3}]
+---
+
+# {PROJECT_TITLE}
+
+{ONE_LINE_PROJECT_DESCRIPTION}
+
+## Project Structure
+
+### [00_Project_Management](00_Project_Management/)
+
+Project guidance, instructions, and configuration
+
+- INSTRUCTIONS.md - Core project guidance
+- PROJECT_ORGANIZATION_PLAN.md (optional)
+- .claude/ - Claude Code configuration (if project-specific)
+- protocols/ - Project protocols and session logs
+
+### [01_Strategic_Foundation](01_Strategic_Foundation/)
+
+Strategic documents and client materials
+
+- **Stakeholder_Presentations/** - Board presentations, recommendations
+- **Client_Materials/** - Client synthesis, proposals, project context
+- **Project_Context/** - Feedback, cross-references, strategic alignment
+
+### [02_Research_Frameworks](02_Research_Frameworks/)
+
+Research methodologies and frameworks
+
+- {FRAMEWORK_1}
+- {FRAMEWORK_2}
+- **Interview_Materials/** - Testing scripts, guides, screeners
+- **{CUSTOM_FRAMEWORK}/** - {FRAMEWORK_DESCRIPTION}
+
+### [03_Research_Insights](03_Research_Insights/)
+
+All primary and secondary research - [See Full Index](03_Research_Insights/_Research_Insights_Index.md)
+
+- **{RESEARCH_CATEGORY_1}/** - {DESCRIPTION}
+- **{RESEARCH_CATEGORY_2}/** - {DESCRIPTION}
+- **{RESEARCH_CATEGORY_3}/** - {DESCRIPTION}
+
+### [04_Strategy_and_Planning](04_Strategy_and_Planning/)
+
+Strategic planning and execution
+
+- **{STRATEGY_FOLDER_1}/** - {DESCRIPTION}
+- **{STRATEGY_FOLDER_2}/** - {DESCRIPTION}
+- Project charter, strategic imperatives, research synthesis
+
+### [05_Data_and_Exports](05_Data_and_Exports/) *(Optional)*
+
+Structured data files (CSV, spreadsheets, databases)
+
+- {DATA_FILE_1}
+- {DATA_FILE_2}
+- Exportable datasets
+
+### [06_Transcripts](06_Transcripts/) *(Optional)*
+
+Meeting and session transcripts
+
+### [07_RFP](07_RFP/) *(Optional)*
+
+Request for Proposal materials (if applicable)
+
+### [ARCHIVE](ARCHIVE/)
+
+Deprecated files, duplicates, old versions
+
+---
+
+## Quick Start
+
+**New to the project?** Start here:
+
+1. Read [00_Project_Management/INSTRUCTIONS.md](00_Project_Management/INSTRUCTIONS.md)
+2. Review [01_Strategic_Foundation/Client_Materials/](01_Strategic_Foundation/Client_Materials/)
+3. Explore [03_Research_Insights/_Research_Insights_Index.md](03_Research_Insights/_Research_Insights_Index.md)
+
+**Looking for specific information?**
+
+- **{INFO_CATEGORY_1}** → [03_Research_Insights/{FOLDER}/](03_Research_Insights/{FOLDER}/)
+- **{INFO_CATEGORY_2}** → [03_Research_Insights/{FOLDER}/](03_Research_Insights/{FOLDER}/)
+- **{INFO_CATEGORY_3}** → [04_Strategy_and_Planning/](04_Strategy_and_Planning/)
+- **Data** → [05_Data_and_Exports/](05_Data_and_Exports/)
+
+**Preparing presentations?**
+
+- Client-facing materials in [01_Strategic_Foundation/](01_Strategic_Foundation/)
+- Supporting data in [05_Data_and_Exports/](05_Data_and_Exports/)
+- Framework documents in [02_Research_Frameworks/](02_Research_Frameworks/)
+
+---
+
+## Project Overview
+
+**Objective:** {PROJECT_OBJECTIVE}
+
+**Key Differentiators:**
+
+- {DIFFERENTIATOR_1}
+- {DIFFERENTIATOR_2}
+- {DIFFERENTIATOR_3}
+- {DIFFERENTIATOR_4}
+
+**Target Audience:**
+
+- {AUDIENCE_1}
+- {AUDIENCE_2}
+- {AUDIENCE_3}
+
+**Business Model:** {BUSINESS_MODEL_DESCRIPTION}
+
+---
+
+*Last reorganized: YYYY-MM-DD*

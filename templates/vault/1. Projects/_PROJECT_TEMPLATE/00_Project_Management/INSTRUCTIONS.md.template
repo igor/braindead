@@ -1,0 +1,171 @@
+---
+type: operations
+scope: {SCOPE}  # client or internal
+project: "{PROJECT_NAME}"
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags: [project-instructions, {TAG1}, {TAG2}]
+---
+
+# {PROJECT_TITLE}
+
+## Project Purpose
+
+{WHY_THIS_PROJECT_EXISTS}
+
+**Strategic positioning:** {HOW_THIS_FITS_STRATEGICALLY}
+
+## Current Status
+
+**Phase/Stage:** {CURRENT_PHASE} - {STATUS}  # e.g., Active, Planning, On Hold
+
+{CURRENT_PHASE_DESCRIPTION}
+
+**Timeline:**
+
+- Phase 1: {START_DATE} - {END_DATE} - Budget: {BUDGET}
+- Phase 2 (if applicable): {START_DATE} - {END_DATE} - Budget: {BUDGET}
+- Key milestone: {MILESTONE_DATE}
+
+## Project Structure
+
+<!-- Describe your project's folder organization -->
+
+### {FOLDER_1}
+
+{FOLDER_DESCRIPTION}
+
+### {FOLDER_2}
+
+{FOLDER_DESCRIPTION}
+
+### {FOLDER_3}
+
+{FOLDER_DESCRIPTION}
+
+## Key Files
+
+<!-- Link to the most important documents -->
+
+### Strategic Documents
+
+- [{DOCUMENT_NAME}](path/to/document.md) - {DESCRIPTION}
+- [{DOCUMENT_NAME}](path/to/document.md) - {DESCRIPTION}
+
+### {CATEGORY}
+
+- [{DOCUMENT_NAME}](path/to/document.md) - {DESCRIPTION}
+
+### Reference Materials
+
+- `{FILE_PATH}` - {DESCRIPTION}
+
+## Known Next Steps
+
+### Immediate Priorities
+
+1. **{TASK_1}** (Due: {DATE})
+   - {SUBTASK_1}
+   - {SUBTASK_2}
+
+2. **{TASK_2}** (Due: {DATE})
+   - {SUBTASK_1}
+   - {SUBTASK_2}
+
+3. **{TASK_3}** (Due: {DATE})
+   - {SUBTASK_1}
+   - {SUBTASK_2}
+
+### Critical Dependencies
+
+<!-- What do you need from others? -->
+
+- {DEPENDENCY_1}
+- {DEPENDENCY_2}
+- {DEPENDENCY_3}
+
+## Strategic Imperatives
+
+<!-- Core priorities and principles for this project -->
+
+1. **{IMPERATIVE_1}** - {DESCRIPTION}
+
+2. **{IMPERATIVE_2}** - {DESCRIPTION}
+
+3. **{IMPERATIVE_3}** - {DESCRIPTION}
+
+4. **{IMPERATIVE_4}** - {DESCRIPTION}
+
+5. **{IMPERATIVE_5}** - {DESCRIPTION}
+
+### Non-Negotiables
+
+<!-- What must be included/addressed? -->
+
+- {NON_NEGOTIABLE_1}
+- {NON_NEGOTIABLE_2}
+- {NON_NEGOTIABLE_3}
+
+## Working Conventions
+
+### Deliverables Format
+
+<!-- How should work be packaged? -->
+
+- {DELIVERABLE_TYPE_1}: {PAGE_COUNT} pages
+- {DELIVERABLE_TYPE_2}: {PAGE_COUNT} pages
+- {DELIVERABLE_TYPE_3}: {FORMAT} (e.g., Figma, slides, etc.)
+- {MEETING_CADENCE}
+
+### Communication Protocols
+
+<!-- How does the team stay aligned? -->
+
+- {MEETING_TYPE}: {FREQUENCY} ({DURATION})
+- {CHANNEL_1} for {PURPOSE}
+- {CHANNEL_2} for {PURPOSE}
+- Major deliverables shared {TIMING}
+- Feedback turnaround: {DURATION}
+
+### Success Metrics Focus
+
+<!-- How do you measure success? -->
+
+- {METRIC_1}
+- {METRIC_2}
+- {METRIC_3}
+
+## Team Contacts
+
+**Client/Partner:**
+
+- {NAME} ({ROLE}) - {EMAIL}
+- {NAME} ({ROLE}) - {EMAIL}
+
+**Internal:**
+
+- {NAME} ({ROLE}) - {EMAIL}
+- {NAME} ({ROLE}) - {EMAIL}
+
+## Risk Register
+
+<!-- Current active risks and mitigations -->
+
+Current active risks:
+
+- {RISK_1} (mitigation: {MITIGATION})
+- {RISK_2} (mitigation: {MITIGATION})
+- {RISK_3} (mitigation: {MITIGATION})
+
+## Notes
+
+<!-- Any other context or reminders -->
+
+- {NOTE_1}
+- {NOTE_2}
+- {NOTE_3}
+
+---
+
+*Last updated: YYYY-MM-DD*
+*Project status: {STATUS}*

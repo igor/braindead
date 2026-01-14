@@ -1,0 +1,236 @@
+# Board Presentation Standards
+
+<!-- This document defines structure, content standards, and communication principles for board-level presentations. -->
+
+## Presentation Philosophy
+
+{YOUR_PRESENTATION_PHILOSOPHY}
+
+Core principles:
+
+- {PRINCIPLE_1}
+- {PRINCIPLE_2}
+- {PRINCIPLE_3}
+- {PRINCIPLE_4}
+
+## Document Structure
+
+### Standard Deck Structure
+
+1. **Executive Summary** ({X} slides)
+   - {WHAT_TO_INCLUDE}
+   - {KEY_MESSAGES}
+
+2. **Context/Problem** ({X} slides)
+   - {WHAT_TO_INCLUDE}
+   - {KEY_MESSAGES}
+
+3. **Analysis/Insights** ({X} slides)
+   - {WHAT_TO_INCLUDE}
+   - {KEY_MESSAGES}
+
+4. **Recommendations** ({X} slides)
+   - {WHAT_TO_INCLUDE}
+   - {KEY_MESSAGES}
+
+5. **Implementation Plan** ({X} slides)
+   - {WHAT_TO_INCLUDE}
+   - {KEY_MESSAGES}
+
+6. **Appendix** (as needed)
+   - {WHAT_TO_INCLUDE}
+
+### Slide Count Guidelines
+
+- **Strategic updates:** {X-Y} slides
+- **Project reviews:** {X-Y} slides
+- **Decision papers:** {X-Y} slides
+- **Annual planning:** {X-Y} slides
+
+## Content Standards
+
+### Slide-Level Standards
+
+**Every slide must have:**
+
+- [ ] Clear headline that states the point (not just labels)
+- [ ] Supporting evidence visible on slide
+- [ ] Source citations where applicable
+- [ ] Consistent formatting
+- [ ] {CUSTOM_REQUIREMENT}
+
+**Headlines should:**
+
+- Be complete sentences that make a claim
+- Lead with the insight, not the category
+- Be specific and actionable
+- {CUSTOM_GUIDELINE}
+
+**Bad headline examples:**
+
+- "{BAD_EXAMPLE_1}"
+- "{BAD_EXAMPLE_2}"
+
+**Good headline examples:**
+
+- "{GOOD_EXAMPLE_1}"
+- "{GOOD_EXAMPLE_2}"
+
+### Visual Standards
+
+**Charts and graphs:**
+
+- {STANDARD_1}
+- {STANDARD_2}
+- {STANDARD_3}
+
+**Images and media:**
+
+- {STANDARD_1}
+- {STANDARD_2}
+- {STANDARD_3}
+
+**Typography:**
+
+- Headline font: {FONT} at {SIZE}
+- Body font: {FONT} at {SIZE}
+- Emphasis: {APPROACH}
+
+**Color palette:**
+
+- Primary: {COLOR_HEX}
+- Secondary: {COLOR_HEX}
+- Accent: {COLOR_HEX}
+- Data visualization: {COLOR_SCHEME}
+
+## Communication Principles
+
+### Framing Recommendations
+
+**Structure:**
+
+1. **The situation** - {WHAT_TO_ESTABLISH}
+2. **The complication** - {WHAT_CREATES_TENSION}
+3. **The question** - {WHAT_NEEDS_ANSWERING}
+4. **The answer** - {YOUR_RECOMMENDATION}
+
+**Decision-making frameworks:**
+
+- {FRAMEWORK_1}: {WHEN_TO_USE}
+- {FRAMEWORK_2}: {WHEN_TO_USE}
+- {FRAMEWORK_3}: {WHEN_TO_USE}
+
+### Handling Uncertainty
+
+When evidence is incomplete:
+
+- **Do:** {APPROACH_1}
+- **Do:** {APPROACH_2}
+- **Don't:** {ANTI_PATTERN_1}
+- **Don't:** {ANTI_PATTERN_2}
+
+### Presenting Trade-offs
+
+**Framework:**
+
+1. Present the decision to be made
+2. Lay out {X} options with equal clarity
+3. For each option, explicitly state:
+   - Benefits
+   - Costs/risks
+   - Assumptions
+   - Irreversibility
+4. Make a recommendation with reasoning
+5. Acknowledge what you're optimizing for
+
+## Evidence and Sources
+
+### Citation Standards
+
+- **On-slide:** {FORMAT}
+- **Appendix:** {FORMAT}
+- **Verbal:** {APPROACH}
+
+### Evidence Quality
+
+**Strong evidence for board presentation:**
+
+- {CRITERION_1}
+- {CRITERION_2}
+- {CRITERION_3}
+
+**Insufficient evidence:**
+
+- {CRITERION_1}
+- {CRITERION_2}
+- {CRITERION_3}
+
+## Pre-Submission Checklist
+
+Before submitting a board deck:
+
+- [ ] {CHECK_1}
+- [ ] {CHECK_2}
+- [ ] {CHECK_3}
+- [ ] {CHECK_4}
+- [ ] {CHECK_5}
+- [ ] Spell check and proofread
+- [ ] All charts have sources cited
+- [ ] Recommendations are clear and actionable
+- [ ] Trade-offs are explicitly acknowledged
+- [ ] Appendix includes supporting materials
+
+## Common Pitfalls
+
+### Structure Pitfalls
+
+- {PITFALL_1}
+- {PITFALL_2}
+- {PITFALL_3}
+
+### Content Pitfalls
+
+- {PITFALL_1}
+- {PITFALL_2}
+- {PITFALL_3}
+
+### Communication Pitfalls
+
+- {PITFALL_1}
+- {PITFALL_2}
+- {PITFALL_3}
+
+## Presentation Types
+
+### {PRESENTATION_TYPE_1}
+
+**Purpose:** {PURPOSE}
+**Typical length:** {X} slides
+**Key sections:** {SECTIONS}
+**Emphasis:** {WHAT_TO_EMPHASIZE}
+
+### {PRESENTATION_TYPE_2}
+
+**Purpose:** {PURPOSE}
+**Typical length:** {X} slides
+**Key sections:** {SECTIONS}
+**Emphasis:** {WHAT_TO_EMPHASIZE}
+
+### {PRESENTATION_TYPE_3}
+
+**Purpose:** {PURPOSE}
+**Typical length:** {X} slides
+**Key sections:** {SECTIONS}
+**Emphasis:** {WHAT_TO_EMPHASIZE}
+
+## Templates and Examples
+
+- **Strategic update template:** {LOCATION}
+- **Decision paper template:** {LOCATION}
+- **Project review template:** {LOCATION}
+- **Example deck (good):** {LOCATION}
+- **Example deck (excellent):** {LOCATION}
+
+---
+
+*Last updated: YYYY-MM-DD*

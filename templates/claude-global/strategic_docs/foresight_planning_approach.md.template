@@ -1,0 +1,377 @@
+# Foresight Planning Approach
+
+<!-- This document defines scenario development, signal detection, and stakeholder engagement approaches for foresight work. -->
+
+## Foresight Philosophy
+
+{YOUR_FORESIGHT_PHILOSOPHY}
+
+Core principles:
+
+- {PRINCIPLE_1}
+- {PRINCIPLE_2}
+- {PRINCIPLE_3}
+- {PRINCIPLE_4}
+
+## Foresight Frameworks
+
+### {FRAMEWORK_1}
+
+**Use case:** {WHEN_TO_USE}
+
+**Time horizon:** {TIMEFRAME}
+
+**Process:**
+
+1. {STEP_1}
+2. {STEP_2}
+3. {STEP_3}
+4. {STEP_4}
+
+**Outputs:**
+
+- {OUTPUT_1}
+- {OUTPUT_2}
+- {OUTPUT_3}
+
+---
+
+### {FRAMEWORK_2}
+
+**Use case:** {WHEN_TO_USE}
+
+**Time horizon:** {TIMEFRAME}
+
+**Process:**
+
+1. {STEP_1}
+2. {STEP_2}
+3. {STEP_3}
+
+**Outputs:**
+
+- {OUTPUT_1}
+- {OUTPUT_2}
+
+---
+
+### {FRAMEWORK_3}
+
+**Use case:** {WHEN_TO_USE}
+
+**Time horizon:** {TIMEFRAME}
+
+**Process:**
+
+1. {STEP_1}
+2. {STEP_2}
+3. {STEP_3}
+
+**Outputs:**
+
+- {OUTPUT_1}
+- {OUTPUT_2}
+
+## Scenario Development
+
+### Scenario Architecture
+
+**{SCENARIO_TYPE_1}:**
+
+- **Definition:** {WHAT_IT_IS}
+- **When to use:** {CONDITIONS}
+- **Structure:** {HOW_TO_STRUCTURE}
+- **Typical count:** {X-Y} scenarios
+
+**{SCENARIO_TYPE_2}:**
+
+- **Definition:** {WHAT_IT_IS}
+- **When to use:** {CONDITIONS}
+- **Structure:** {HOW_TO_STRUCTURE}
+- **Typical count:** {X-Y} scenarios
+
+### Scenario Construction Process
+
+#### Phase 1: Horizon Scanning
+
+**Activities:**
+
+- {ACTIVITY_1}
+- {ACTIVITY_2}
+- {ACTIVITY_3}
+
+**Sources:**
+
+- {SOURCE_TYPE_1}
+- {SOURCE_TYPE_2}
+- {SOURCE_TYPE_3}
+
+**Outputs:**
+
+- {OUTPUT_1}
+- {OUTPUT_2}
+
+#### Phase 2: Driver Identification
+
+**Process:**
+
+1. {STEP_1}
+2. {STEP_2}
+3. {STEP_3}
+
+**Criteria for strong drivers:**
+
+- [ ] {CRITERION_1}
+- [ ] {CRITERION_2}
+- [ ] {CRITERION_3}
+
+#### Phase 3: Scenario Building
+
+**Process:**
+
+1. {STEP_1}
+2. {STEP_2}
+3. {STEP_3}
+4. {STEP_4}
+
+**Quality checks:**
+
+- [ ] {CHECK_1}
+- [ ] {CHECK_2}
+- [ ] {CHECK_3}
+
+#### Phase 4: Implication Mapping
+
+**Process:**
+
+1. {STEP_1}
+2. {STEP_2}
+3. {STEP_3}
+
+**Output format:** {DESCRIPTION}
+
+## Signal Detection
+
+### Signal Types
+
+**{SIGNAL_TYPE_1}:**
+
+- **Definition:** {WHAT_IT_IS}
+- **Where to look:** {SOURCES}
+- **How to validate:** {VALIDATION_APPROACH}
+
+**{SIGNAL_TYPE_2}:**
+
+- **Definition:** {WHAT_IT_IS}
+- **Where to look:** {SOURCES}
+- **How to validate:** {VALIDATION_APPROACH}
+
+**{SIGNAL_TYPE_3}:**
+
+- **Definition:** {WHAT_IT_IS}
+- **Where to look:** {SOURCES}
+- **How to validate:** {VALIDATION_APPROACH}
+
+### Signal Scanning Process
+
+**Cadence:** {HOW_OFTEN}
+
+**Sources:**
+
+- {SOURCE_1}
+- {SOURCE_2}
+- {SOURCE_3}
+- {SOURCE_4}
+
+**Documentation:**
+
+- **File naming:** `{NAMING_CONVENTION}`
+- **Frontmatter:**
+```yaml
+---
+type: signal
+signal_type: {weak/strong}
+domain: {DOMAIN}
+source: {SOURCE}
+detected: YYYY-MM-DD
+---
+```
+
+**Triage criteria:**
+
+- {CRITERION_1}
+- {CRITERION_2}
+- {CRITERION_3}
+
+### Signal Validation
+
+**Weak signals require:**
+
+- [ ] {VALIDATION_STEP_1}
+- [ ] {VALIDATION_STEP_2}
+- [ ] {VALIDATION_STEP_3}
+
+**Strong signals require:**
+
+- [ ] {VALIDATION_STEP_1}
+- [ ] {VALIDATION_STEP_2}
+
+## Stakeholder Engagement
+
+### Engagement Formats
+
+**{FORMAT_1}:**
+
+- **Purpose:** {PURPOSE}
+- **Participants:** {WHO}
+- **Duration:** {HOW_LONG}
+- **Structure:** {AGENDA_OUTLINE}
+- **Outputs:** {WHAT_YOU_GET}
+
+**{FORMAT_2}:**
+
+- **Purpose:** {PURPOSE}
+- **Participants:** {WHO}
+- **Duration:** {HOW_LONG}
+- **Structure:** {AGENDA_OUTLINE}
+- **Outputs:** {WHAT_YOU_GET}
+
+**{FORMAT_3}:**
+
+- **Purpose:** {PURPOSE}
+- **Participants:** {WHO}
+- **Duration:** {HOW_LONG}
+- **Structure:** {AGENDA_OUTLINE}
+- **Outputs:** {WHAT_YOU_GET}
+
+### Workshop Design
+
+**Pre-workshop:**
+
+- [ ] {PREPARATION_STEP_1}
+- [ ] {PREPARATION_STEP_2}
+- [ ] {PREPARATION_STEP_3}
+
+**Workshop flow:**
+
+1. **{SECTION_1}** ({DURATION})
+   - {ACTIVITY}
+   - {OUTPUT}
+
+2. **{SECTION_2}** ({DURATION})
+   - {ACTIVITY}
+   - {OUTPUT}
+
+3. **{SECTION_3}** ({DURATION})
+   - {ACTIVITY}
+   - {OUTPUT}
+
+**Post-workshop:**
+
+- [ ] {FOLLOW_UP_STEP_1}
+- [ ] {FOLLOW_UP_STEP_2}
+- [ ] {FOLLOW_UP_STEP_3}
+
+## Deliverable Standards
+
+### Foresight Report
+
+**Structure:**
+
+1. **Executive Summary** ({X} pages)
+2. **Methodology** ({X} pages)
+3. **Scenario Narratives** ({X} pages each)
+4. **Strategic Implications** ({X} pages)
+5. **Recommendations** ({X} pages)
+6. **Appendices**
+
+**Page count:** {TYPICAL_RANGE} pages
+**Format:** {FORMAT_REQUIREMENTS}
+
+### Scenario Cards
+
+**Format:** {DESCRIPTION}
+**Content per card:**
+- {ELEMENT_1}
+- {ELEMENT_2}
+- {ELEMENT_3}
+
+### Signal Database
+
+**Structure:** {DATABASE_FORMAT}
+**Fields:**
+- {FIELD_1}
+- {FIELD_2}
+- {FIELD_3}
+- {FIELD_4}
+
+## Time Horizons
+
+### {HORIZON_1}
+
+**Timeframe:** {YEARS}
+**Use case:** {WHEN_TO_USE}
+**Characteristics:** {WHAT_DEFINES_IT}
+**Typical drivers:** {DRIVER_TYPES}
+
+### {HORIZON_2}
+
+**Timeframe:** {YEARS}
+**Use case:** {WHEN_TO_USE}
+**Characteristics:** {WHAT_DEFINES_IT}
+**Typical drivers:** {DRIVER_TYPES}
+
+### {HORIZON_3}
+
+**Timeframe:** {YEARS}
+**Use case:** {WHEN_TO_USE}
+**Characteristics:** {WHAT_DEFINES_IT}
+**Typical drivers:** {DRIVER_TYPES}
+
+## Common Pitfalls
+
+### Scenario Development Pitfalls
+
+- {PITFALL_1}
+- {PITFALL_2}
+- {PITFALL_3}
+- {PITFALL_4}
+
+### Signal Detection Pitfalls
+
+- {PITFALL_1}
+- {PITFALL_2}
+- {PITFALL_3}
+
+### Stakeholder Engagement Pitfalls
+
+- {PITFALL_1}
+- {PITFALL_2}
+- {PITFALL_3}
+
+## Quality Criteria
+
+### Strong foresight work includes:
+
+- [ ] {CRITERION_1}
+- [ ] {CRITERION_2}
+- [ ] {CRITERION_3}
+- [ ] {CRITERION_4}
+- [ ] {CRITERION_5}
+
+### Red flags:
+
+- {WARNING_SIGN_1}
+- {WARNING_SIGN_2}
+- {WARNING_SIGN_3}
+
+## Tools and Resources
+
+- **Scenario templates:** {LOCATION}
+- **Workshop materials:** {LOCATION}
+- **Signal database:** {LOCATION}
+- **Recommended reading:** {SOURCES}
+
+---
+
+*Last updated: YYYY-MM-DD*

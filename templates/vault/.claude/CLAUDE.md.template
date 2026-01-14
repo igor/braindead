@@ -1,0 +1,48 @@
+# {VAULT_NAME} Instructions
+
+<!-- Replace {VAULT_NAME} with your vault name -->
+
+## Vault Structure & Organization
+
+- **Organization**: PARA (Projects/Areas/Resources/Archive)
+- **Client communications**: Archive in `4. Archive/Clients/[Year]/[Client]/`
+- **{CUSTOM_ORGANIZATION_RULE}**: {DESCRIPTION}  <!-- Add your custom rules -->
+
+## RAG System Operations
+
+**SINGLE SOURCE OF TRUTH**: [rag-collections.yaml](.claude/agent_docs/rag-collections.yaml)
+
+**BEFORE any RAG operation** (re-index, create collection, query troubleshooting):
+
+1. READ `rag-collections.yaml` for current collection definitions
+2. Check collection exists, get correct ingest script name, recommended n_results
+
+**AFTER any collection change** (create, update, delete, re-index):
+
+1. UPDATE `rag-collections.yaml` with new chunk counts, dates, or collection entries
+2. This keeps the registry accurate for future operations
+
+**Infrastructure**: {RAG_HOST} at {RAG_ADDRESS}, port {RAG_PORT}, Ollama {OLLAMA_VERSION}
+**Service check**: `pgrep -f mcp_server.py` before operations
+
+<!-- If RAG is on remote server, add connection details:
+**Connection**: ssh {RAG_HOST}
+**RAG Path**: {RAG_PATH}
+-->
+
+## Detailed Workflows
+
+For complex, multi-step procedures specific to this vault, refer to the topic-specific files:
+
+- **YAML frontmatter requirements**: See [agent_docs/yaml-frontmatter.md](.claude/agent_docs/yaml-frontmatter.md) for mandatory frontmatter fields when creating files in Projects/Areas/Resources/Archive folders
+- **RAG operations details**: See [agent_docs/rag-operations.md](.claude/agent_docs/rag-operations.md) for comprehensive infrastructure documentation (if using RAG)
+- **{CUSTOM_WORKFLOW}**: See [agent_docs/{WORKFLOW_FILE}.md](.claude/agent_docs/{WORKFLOW_FILE}.md) for {WORKFLOW_DESCRIPTION}
+
+## Vault-Specific Preferences
+
+<!-- Add any vault-specific preferences here -->
+
+- **File naming convention**: {CONVENTION}  <!-- e.g., kebab-case, Title Case, etc. -->
+- **Tag strategy**: {TAG_STRATEGY}  <!-- e.g., hierarchical tags, flat tags, etc. -->
+- **Link style**: {LINK_STYLE}  <!-- e.g., [[wikilinks]], [markdown](links), etc. -->
+- **{CUSTOM_PREFERENCE}**: {DESCRIPTION}

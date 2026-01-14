@@ -1,0 +1,52 @@
+---
+type: reference
+scope: {SCOPE}  # client or internal
+area: {AREA_NAME}
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+---
+
+# {AREA_NAME}
+
+{ONE_LINE_DESCRIPTION_OF_AREA}
+
+---
+
+## Purpose
+
+{AREA_NAME} {DETAILED_PURPOSE_DESCRIPTION}
+
+{WHAT_DOES_THIS_AREA_COVER}:
+
+- **{ASPECT_1}** ({DESCRIPTION})
+- **{ASPECT_2}** ({DESCRIPTION})
+- **{ASPECT_3}** ({DESCRIPTION})
+
+---
+
+## What belongs here
+
+| Content | Type | Example |
+|---------|------|---------|
+| {CONTENT_TYPE_1} | {DOC_TYPE} | {EXAMPLE} |
+| {CONTENT_TYPE_2} | {DOC_TYPE} | {EXAMPLE} |
+| {CONTENT_TYPE_3} | {DOC_TYPE} | {EXAMPLE} |
+| {CONTENT_TYPE_4} | {DOC_TYPE} | {EXAMPLE} |
+
+---
+
+## What doesn't belong here
+
+- **{EXCLUDED_CONTENT_1}** → {WHERE_IT_SHOULD_GO}
+- **{EXCLUDED_CONTENT_2}** → {WHERE_IT_SHOULD_GO}
+- **{EXCLUDED_CONTENT_3}** → {WHERE_IT_SHOULD_GO}
+
+---
+
+## Related
+
+<!-- Link to related areas, projects, or resources -->
+
+- [[{RELATED_NOTE_1}]] - {BRIEF_DESCRIPTION}
+- [[{RELATED_NOTE_2}]] - {BRIEF_DESCRIPTION}
+- `{PATH_TO_RELATED_PROJECT}/` - {BRIEF_DESCRIPTION}

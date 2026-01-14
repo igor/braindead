@@ -1,0 +1,189 @@
+# Research Methodology
+
+<!-- This document defines your research processes, validation approaches, and evidence standards. -->
+
+## Research Philosophy
+
+{YOUR_RESEARCH_PHILOSOPHY}
+
+Core principles:
+
+- {PRINCIPLE_1}
+- {PRINCIPLE_2}
+- {PRINCIPLE_3}
+- {PRINCIPLE_4}
+
+## Research Processes
+
+### Primary Research
+
+**{METHODOLOGY_1}** (e.g., Ethnographic research, User interviews, etc.)
+
+- **When to use:** {CONDITIONS}
+- **Process:**
+  1. {STEP_1}
+  2. {STEP_2}
+  3. {STEP_3}
+- **Outputs:** {EXPECTED_DELIVERABLES}
+- **Quality criteria:** {WHAT_MAKES_IT_GOOD}
+
+**{METHODOLOGY_2}** (e.g., Behavioral testing, Surveys, etc.)
+
+- **When to use:** {CONDITIONS}
+- **Process:**
+  1. {STEP_1}
+  2. {STEP_2}
+  3. {STEP_3}
+- **Outputs:** {EXPECTED_DELIVERABLES}
+- **Quality criteria:** {WHAT_MAKES_IT_GOOD}
+
+### Secondary Research
+
+**{RESEARCH_TYPE_1}** (e.g., Competitive analysis, Market research, etc.)
+
+- **Sources:** {WHERE_TO_LOOK}
+- **Documentation:** {HOW_TO_DOCUMENT}
+- **Synthesis:** {HOW_TO_SYNTHESIZE}
+
+**{RESEARCH_TYPE_2}** (e.g., Trend scanning, Academic research, etc.)
+
+- **Sources:** {WHERE_TO_LOOK}
+- **Documentation:** {HOW_TO_DOCUMENT}
+- **Synthesis:** {HOW_TO_SYNTHESIZE}
+
+## Validation Approaches
+
+### Evidence Hierarchy
+
+1. **{EVIDENCE_LEVEL_1}** - {DESCRIPTION_AND_WEIGHT}
+2. **{EVIDENCE_LEVEL_2}** - {DESCRIPTION_AND_WEIGHT}
+3. **{EVIDENCE_LEVEL_3}** - {DESCRIPTION_AND_WEIGHT}
+4. **{EVIDENCE_LEVEL_4}** - {DESCRIPTION_AND_WEIGHT}
+
+### Quality Checks
+
+Before considering research complete:
+
+- [ ] {QUALITY_CHECK_1}
+- [ ] {QUALITY_CHECK_2}
+- [ ] {QUALITY_CHECK_3}
+- [ ] {QUALITY_CHECK_4}
+- [ ] {QUALITY_CHECK_5}
+
+## Evidence Standards
+
+### What counts as evidence
+
+**Strong evidence:**
+
+- {CRITERION_1}
+- {CRITERION_2}
+- {CRITERION_3}
+
+**Weak evidence (use with caution):**
+
+- {CRITERION_1}
+- {CRITERION_2}
+- {CRITERION_3}
+
+**Not evidence:**
+
+- {ANTI_PATTERN_1}
+- {ANTI_PATTERN_2}
+- {ANTI_PATTERN_3}
+
+### Citation and Source Standards
+
+- **Academic sources:** {STANDARD}
+- **Industry reports:** {STANDARD}
+- **News/articles:** {STANDARD}
+- **Social media:** {STANDARD}
+- **Internal data:** {STANDARD}
+
+## Research Documentation
+
+### File Naming
+
+- Primary research: `{NAMING_CONVENTION}`
+- Secondary research: `{NAMING_CONVENTION}`
+- Synthesis documents: `{NAMING_CONVENTION}`
+
+### Frontmatter Requirements
+
+```yaml
+---
+type: research
+scope: {client/internal}
+project: "{PROJECT_NAME}"
+research_type: {primary/secondary}
+methodology: {METHODOLOGY_NAME}
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags: [{TAG1}, {TAG2}]
+---
+```
+
+### Document Structure
+
+Standard structure for research documents:
+
+1. **Executive Summary** - {WHAT_TO_INCLUDE}
+2. **Methodology** - {WHAT_TO_INCLUDE}
+3. **Findings** - {WHAT_TO_INCLUDE}
+4. **Analysis** - {WHAT_TO_INCLUDE}
+5. **Implications** - {WHAT_TO_INCLUDE}
+6. **Appendices** - {WHAT_TO_INCLUDE}
+
+## Common Pitfalls
+
+### Avoid
+
+- {PITFALL_1}
+- {PITFALL_2}
+- {PITFALL_3}
+- {PITFALL_4}
+
+### Instead
+
+- {BETTER_PRACTICE_1}
+- {BETTER_PRACTICE_2}
+- {BETTER_PRACTICE_3}
+- {BETTER_PRACTICE_4}
+
+## Frameworks and Tools
+
+### {FRAMEWORK_1}
+
+**Use case:** {WHEN_TO_USE}
+**Process:** {HOW_TO_APPLY}
+**Template:** {LINK_OR_DESCRIPTION}
+
+### {FRAMEWORK_2}
+
+**Use case:** {WHEN_TO_USE}
+**Process:** {HOW_TO_APPLY}
+**Template:** {LINK_OR_DESCRIPTION}
+
+### {FRAMEWORK_3}
+
+**Use case:** {WHEN_TO_USE}
+**Process:** {HOW_TO_APPLY}
+**Template:** {LINK_OR_DESCRIPTION}
+
+## Ethics and Transparency
+
+### Research Ethics
+
+- {ETHICAL_PRINCIPLE_1}
+- {ETHICAL_PRINCIPLE_2}
+- {ETHICAL_PRINCIPLE_3}
+
+### AI Use in Research
+
+- **Allowed:** {WHAT_IS_PERMITTED}
+- **Requires disclosure:** {WHAT_MUST_BE_FLAGGED}
+- **Not allowed:** {WHAT_IS_PROHIBITED}
+
+---
+
+*Last updated: YYYY-MM-DD*
