@@ -2,7 +2,7 @@
 
 > Making strategy executable, transparent, and creative through explicit protocols and AI collaboration
 
-**Companion to:** [Strategy-as-Protocol essay](link-when-published)
+**Companion to:** [Strategy-as-Protocol essay](https://thenew.igorschwarzmann.com/p/strategy-as-protocol)
 
 ## What is this?
 
@@ -83,7 +83,7 @@ When you write your decision rules explicitly - in plain markdown - they become:
 
 This isn't about making AI work like you. It's about making your work more explicit, which benefits both humans and AI.
 
-Read more: [Strategy-as-Protocol essay](link)
+Read more: [Strategy-as-Protocol essay](https://thenew.igorschwarzmann.com/p/strategy-as-protocol)
 
 ## What this is NOT
 
@@ -137,4 +137,4 @@ Read the [FAQs](docs/08-faqs.md) or open an issue for clarification.
 
 Created by [Igor Schwarzmann](https://igorschwarzmann.com) - strategic consultant specializing in AI strategy and cultural research.
 
-This architecture powers 15+ years of client work and is the practical implementation of concepts from the [Strategy-as-Protocol](link) essay.
+This architecture powers 15+ years of client work and is the practical implementation of concepts from the [Strategy-as-Protocol](https://thenew.igorschwarzmann.com/p/strategy-as-protocol) essay.
