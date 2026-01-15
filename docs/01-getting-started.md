@@ -46,23 +46,24 @@ This guide helps you pick your entry point. You don't need to adopt everything a
 
 **Quick setup:**
 
-\`\`\`
+```text
 your-vault/
 ├── 0. Inbox/           # Quick capture
 ├── 1. Projects/        # Time-bound work
 ├── 2. Areas/           # Ongoing domains
 ├── 3. Resources/       # Reference materials
 └── 4. Archive/         # Completed work
-\`\`\`
+```
 
 Minimal frontmatter:
-\`\`\`yaml
+
+```yaml
 ---
 created: 2026-01-14
 updated: 2026-01-14
 type: research
 ---
-\`\`\`
+```
 
 **Read next:** [PARA Organization](02-para-organization.md) for full details
 **Use template:** [templates/vault/](../templates/vault/) for folder structure
@@ -91,7 +92,7 @@ type: research
 
 **Create your CLAUDE.md:**
 
-\`\`\`markdown
+```markdown
 # Claude Code Instructions
 
 ## General Workflow Preferences
@@ -107,7 +108,7 @@ type: research
 ## Research & Knowledge Work
 
 [Your research patterns, RAG preferences, source standards]
-\`\`\`
+```
 
 **Read next:** [Claude Configuration](04-claude-configuration.md) for full structure
 **Use template:** [templates/claude-global/CLAUDE.md.template](../templates/claude-global/CLAUDE.md.template)
