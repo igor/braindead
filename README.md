@@ -13,6 +13,10 @@ I'm [Igor Schwarzmann](https://igorschwarzmann.com)—a cultural researcher and 
 
 I've operated in this space my entire career, but I never learned to code. What changed was discovering that **you cannot delegate what you cannot articulate**. When I started building AI-augmented workflows for my strategy practice, I had to make my implicit methodology explicit. This repository is the result of that journey—a documented system for making strategic thinking executable, built through doing rather than coding.
 
+### Why "Brain Dead"?
+
+The name is a deliberate joke on knowledge management's obsession with being "serious." While everyone else talks about their "second brain," I named my vault after [Brain Dead](https://wearebraindead.com)—the LA streetwear collective that puts a lowbrow, irreverent name on high-concept art and cultural work. It's a reminder that making your thinking explicit doesn't require pretentiousness. Sometimes the best systems have dumb names.
+
 ## What is this?
 
 A documented reference architecture showing how markdown-based knowledge systems + Claude Code create executable, transparent strategy. Not a product to install - a pattern to adapt.
