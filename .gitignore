@@ -36,3 +36,8 @@ venv/
 
 # Private examples (if you create them during development)
 examples/private/
+
+# Internal tracking files
+COMPLETION_SUMMARY.md
+TODO.md
+NOTES.md
