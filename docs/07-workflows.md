@@ -220,7 +220,7 @@ Also references your board presentation standards for documenting results.
 
 **Working pattern:**
 ```
-New work → Starts in structure (use templates)
+New work → Starts in structure (apply your patterns)
 Old notes → Migrate when you need them
 Never → Batch migrate everything upfront
 ```

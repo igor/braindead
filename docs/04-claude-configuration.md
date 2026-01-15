@@ -26,8 +26,6 @@ Claude Code can read your preferences and workflows from `CLAUDE.md` files. This
 
 **When Claude reads it:** Every Claude Code session, regardless of project
 
-**Template:** [templates/claude-global/CLAUDE.md.template](../templates/claude-global/CLAUDE.md.template)
-
 ### Project Configuration (`{project}/.claude/CLAUDE.md`)
 
 **Purpose:** Project-specific overrides and additions
@@ -42,8 +40,6 @@ Claude Code can read your preferences and workflows from `CLAUDE.md` files. This
 - References to detailed agent_docs
 
 **When Claude reads it:** When working in that project/vault directory
-
-**Template:** [templates/vault/.claude/CLAUDE.md.template](../templates/vault/.claude/CLAUDE.md.template)
 
 ### How They Work Together
 
@@ -178,29 +174,30 @@ For complex procedures, see:
 **Do both if:**
 - You have both general preferences and project-specific needs (recommended for mature setups)
 
-### Step 2: Copy the Template
+### Step 2: Create the File
 
 **For global:**
 ```bash
 mkdir -p ~/.claude
-cp templates/claude-global/CLAUDE.md.template ~/.claude/CLAUDE.md
+touch ~/.claude/CLAUDE.md
 ```
 
 **For project/vault:**
 ```bash
 mkdir -p {vault_path}/.claude
-cp templates/vault/.claude/CLAUDE.md.template {vault_path}/.claude/CLAUDE.md
+touch {vault_path}/.claude/CLAUDE.md
 ```
 
-### Step 3: Replace Placeholders
+### Step 3: Start with Your Context
 
-Open the file and replace all `{PLACEHOLDERS}`:
+Begin by documenting:
 
-- `{YOUR_ROLE}` → Your professional role (e.g., "Software architect", "Research analyst")
-- `{YOUR_DOMAIN}` → Your specialization (e.g., "Distributed systems", "User research")
-- `{RAG_HOST}` → Your RAG server hostname (e.g., "localhost", "192.168.1.100") if using remote RAG
-- `{VAULT_PATH}` → Absolute path to your vault (e.g., "~/Documents/my-vault")
-- etc.
+- **Who you are professionally** - your role, domain, expertise
+- **What quality means in your work** - standards, expectations, output types
+- **How you prefer to work** - workflow patterns, tool preferences
+- **Your infrastructure** - if relevant (RAG setup, remote servers, etc.)
+
+Don't overthink it. Start with a few bullet points. You'll expand as patterns emerge.
 
 ### Step 4: Document Your Patterns
 
@@ -287,7 +284,7 @@ For domain-specific methodologies and frameworks, create files in `~/.claude/str
 - `brand_strategy_frameworks.md`
 - `foresight_planning_approach.md`
 
-**Templates available:** [templates/claude-global/strategic_docs/](../templates/claude-global/strategic_docs/)
+**How to create these:** Document the methodologies you actually use. Not aspirational frameworks - the actual processes you follow and trust.
 
 ---
 
@@ -299,7 +296,7 @@ For domain-specific methodologies and frameworks, create files in `~/.claude/str
 
 **Purpose:** Claude Code configuration (permissions, MCP servers, etc.)
 
-**Template:** [templates/claude-global/settings.json.template](../templates/claude-global/settings.json.template)
+**Documentation:** See [Claude Code Settings Documentation](https://docs.anthropic.com/claude/docs/claude-code-configuration#settings)
 
 **Sensitive values:** Use `settings.local.json` (not tracked in git)
 
@@ -309,9 +306,7 @@ For domain-specific methodologies and frameworks, create files in `~/.claude/str
 
 **Purpose:** Environment variables (API keys, paths, etc.)
 
-**Template:** [templates/claude-global/.env.example](../templates/claude-global/.env.example)
-
-**Important:** Never commit `.env` to git. It's in `.gitignore`.
+**Important:** Never commit `.env` to git. Add it to `.gitignore`.
 
 ---
 
@@ -432,17 +427,12 @@ If open-sourcing your setup:
 
 ## Next Steps
 
-1. Copy the appropriate template ([global](../templates/claude-global/CLAUDE.md.template) or [vault](../templates/vault/.claude/CLAUDE.md.template))
-2. Replace placeholders with your actual preferences
-3. Start with 3-5 key preferences
-4. Expand as patterns emerge
-5. Create [custom skills](05-custom-skills.md) for common workflows
-6. Set up [RAG infrastructure](06-rag-infrastructure.md) for semantic search (optional)
+1. Create your CLAUDE.md file (global or project-specific)
+2. Start with 3-5 key preferences - your most repeated instructions
+3. Work with Claude Code and notice what you keep explaining
+4. Add those patterns to your CLAUDE.md
+5. Expand as your practice evolves
+6. Create [custom skills](05-custom-skills.md) for common workflows (optional)
+7. Set up [RAG infrastructure](06-rag-infrastructure.md) for semantic search (optional)
 
----
-
-**Templates:**
-- [Global CLAUDE.md template](../templates/claude-global/CLAUDE.md.template)
-- [Vault CLAUDE.md template](../templates/vault/.claude/CLAUDE.md.template)
-- [Strategic docs templates](../templates/claude-global/strategic_docs/)
-- [Agent docs examples](../templates/vault/.claude/agent_docs/)
+**Remember:** Your CLAUDE.md should reflect your actual patterns, not ideal ones. Document what you do, not what you think you should do.

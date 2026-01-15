@@ -167,8 +167,6 @@ if you want structured analysis, or Dot Voting for quick consensus.
 3. Format consistently
 4. Save to designated location
 
-**Template:** [commands/diary.md](../templates/vault/.claude/commands/diary.md)
-
 ### Project Management Skills
 
 **Purpose:** Automate project setup and archiving
@@ -180,10 +178,8 @@ if you want structured analysis, or Dot Voting for quick consensus.
 **Pattern:**
 1. Gather information (ask user)
 2. Create folders and files
-3. Apply templates with placeholders replaced
+3. Apply your structure consistently
 4. Confirm completion
-
-**Template:** [commands/new-project.md](../templates/vault/.claude/commands/new-project.md)
 
 ### RAG Query Skills
 
@@ -201,8 +197,6 @@ if you want structured analysis, or Dot Voting for quick consensus.
 2. Query appropriate collection
 3. Present results with context
 4. Synthesize if needed
-
-**Template:** [commands/rag-query.md.template](../templates/vault/.claude/commands/rag-query.md.template)
 
 ### Workflow Automation Skills
 
@@ -427,22 +421,22 @@ Accepts optional parameter: project name
 
 ---
 
-## Examples from This Repository
+## Building Your Own Skills
 
-### Session Logging
+Start with the workflows you repeat most often:
 
-- [diary.md](../templates/vault/.claude/commands/diary.md) - Create session diary
-- [protocol.md](../templates/vault/.claude/commands/protocol.md) - Daily protocol entry
+**Session logging:** Capture work sessions, decisions made, patterns discovered
+**Project management:** Automate setup, archiving, status updates
+**RAG queries:** Search specific collections conversationally
+**Content generation:** Summaries, reports, analyses based on your patterns
 
-### Project Management
+**How to build:**
+1. Notice what you do repeatedly
+2. Document the steps as a skill
+3. Test and refine
+4. Add to your `.claude/commands/` directory
 
-- [new-project.md](../templates/vault/.claude/commands/new-project.md) - Create project structure
-
-### RAG Queries
-
-- [rag-query.md.template](../templates/vault/.claude/commands/rag-query.md.template) - Collection query template
-
-**Adapt these templates to your workflows.**
+The best skills solve your actual problems, not hypothetical ones.
 
 ---
 
@@ -499,7 +493,7 @@ the relationships, then use Stock and Flow to understand dynamics.
 ### Quarterly
 
 - Major skill refactoring if needed
-- Update templates based on learned patterns
+- Update skills based on learned patterns
 - Share useful skills with team (if applicable)
 
 ---
@@ -507,18 +501,10 @@ the relationships, then use Stock and Flow to understand dynamics.
 ## Next Steps
 
 1. Identify one repeated workflow
-2. Document it as a skill file
-3. Test and refine
+2. Document it as a skill file in `.claude/commands/`
+3. Test and refine through actual use
 4. Create 2-3 more skills for common tasks
 5. Set up [RAG infrastructure](06-rag-infrastructure.md) to enable query skills (optional)
 6. Explore [workflow patterns](07-workflows.md) for inspiration
-
----
-
-**Templates:**
-- [diary.md](../templates/vault/.claude/commands/diary.md)
-- [protocol.md](../templates/vault/.claude/commands/protocol.md)
-- [new-project.md](../templates/vault/.claude/commands/new-project.md)
-- [rag-query.md.template](../templates/vault/.claude/commands/rag-query.md.template)
 
 **Learn more:** [Claude Code Skills Documentation](https://docs.anthropic.com/claude/docs/claude-code-skills)

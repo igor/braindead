@@ -112,7 +112,7 @@ Don't over-index. Find your rhythm.
 - Your workflows
 - Your methodologies
 
-See [examples](../examples/) for how consulting patterns translate to other domains.
+The patterns described here can translate to any domain - adapt them to your specific needs.
 
 ### Is this only for consultants?
 
@@ -122,13 +122,13 @@ See [examples](../examples/) for how consulting patterns translate to other doma
 - Need to reference past work
 - Work involving AI tools
 
-The professional context in examples is illustrative, not prescriptive.
+The professional context described here is illustrative - your implementation will differ based on your domain.
 
 ### Can I use this with my team?
 
 **Yes, with considerations:**
 
-**Shared**: Structure, schema, templates, resources
+**Shared**: Structure, schema, resources
 **Individual**: Operating manuals, skills, personal workflows
 
 Teams benefit from shared patterns, not identical implementations.
@@ -195,7 +195,7 @@ Review terms for tools you choose. Consult legal counsel for compliance needs.
 
 - Start with [Getting Started Guide](01-getting-started.md)
 - Review [Philosophy](00-philosophy.md) for the "why"
-- Explore [Templates](../templates/) for structure
+- Study the documentation to understand the patterns
 - Adapt patterns to your needs
 
 ---

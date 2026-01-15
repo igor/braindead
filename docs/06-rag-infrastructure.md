@@ -299,7 +299,6 @@ Create a /vault query skill that:
 - Groups results by project/area if relevant
 - Formats output clearly
 
-Base it on templates/vault/.claude/commands/rag-query.md.template
 Save to: .claude/commands/vault.md
 ```
 
@@ -337,8 +336,6 @@ Help me debug and fix this.
 **File:** `.claude/agent_docs/rag-collections.yaml`
 
 **Purpose:** Single source of truth for all collections. Claude consults this before any RAG operation.
-
-**Template:** [rag-collections.yaml.template](../templates/vault/.claude/agent_docs/rag-collections.yaml.template)
 
 **Pattern:**
 - Lists all collections with metadata
@@ -430,8 +427,6 @@ Use frontmatter as query filters:
 **Recommendation:** Start with nomic-embed-text. Switch only if you have specific quality needs.
 
 ### Remote Server Pattern
-
-See [rag-operations.md.template](../templates/vault/.claude/agent_docs/rag-operations.md.template) for remote setup patterns.
 
 **When to use:**
 - Very large collections (50k+ chunks)
@@ -533,12 +528,7 @@ See [rag-operations.md.template](../templates/vault/.claude/agent_docs/rag-opera
 
 ---
 
-## Templates & Resources
-
-**Templates:**
-- [rag-collections.yaml.template](../templates/vault/.claude/agent_docs/rag-collections.yaml.template) - Collection registry structure
-- [rag-operations.md.template](../templates/vault/.claude/agent_docs/rag-operations.md.template) - Detailed operations guide
-- [rag-query.md.template](../templates/vault/.claude/commands/rag-query.md.template) - Query skill template
+## Resources
 
 **External Documentation:**
 - [ChromaDB documentation](https://docs.trychroma.com/) - Vector database

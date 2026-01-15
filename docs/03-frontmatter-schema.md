@@ -352,10 +352,7 @@ A: No. Tags are for cross-cutting themes. Most documents don't need tags. PARA s
 ## Next Steps
 
 - Review [PARA Organization](02-para-organization.md) to understand where files live
-- Use templates that include frontmatter examples
+- Start adding frontmatter to new files as you create them
+- Document your frontmatter rules in `.claude/agent_docs/yaml-frontmatter.md`
 - Set up [Claude Code configuration](04-claude-configuration.md) to automatically prompt for frontmatter
-- See [yaml-frontmatter.md template](../templates/vault/.claude/agent_docs/yaml-frontmatter.md) for the rules Claude Code follows
-
----
-
-**Template reference:** [templates/vault/.claude/agent_docs/yaml-frontmatter.md](../templates/vault/.claude/agent_docs/yaml-frontmatter.md)
+- Refine your schema based on what you actually need to track

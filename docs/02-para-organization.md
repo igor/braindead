@@ -193,7 +193,7 @@ Our specific pattern for project folders:
 - Documents stakeholders, constraints, preferences
 - Makes project self-documenting
 
-**Use the template:** [Project template structure](../templates/vault/1. Projects/_PROJECT_TEMPLATE/)
+**Build your own structure** based on what your projects actually need.
 
 ---
 
@@ -286,7 +286,7 @@ See [Integration Patterns](07-workflows.md#pattern-7-on-demand-migration) for on
 ## Next Steps
 
 1. **Learn PARA methodology:** Read [Tiago Forte's guide](https://fortelabs.com/blog/para/)
-2. **Create your structure:** Use the [project template](../templates/vault/1. Projects/_PROJECT_TEMPLATE/)
+2. **Create your structure:** Build folders based on your actual project needs
 3. **Add frontmatter:** See [Frontmatter Schema](03-frontmatter-schema.md) for machine-readable metadata
 4. **Configure Claude:** Set up [Claude Code configuration](04-claude-configuration.md) to maintain structure
 5. **Optional: Add RAG:** [RAG Infrastructure](06-rag-infrastructure.md) for semantic search across your vault
