@@ -2,7 +2,16 @@
 
 > Making strategy executable, transparent, and creative through explicit protocols and AI collaboration
 
-**Companion to:** [Strategy-as-Protocol essay](https://thenew.igorschwarzmann.com/p/strategy-as-protocol)
+## About This Project
+
+This system was built by a non-coder.
+
+I'm [Igor Schwarzmann](https://igorschwarzmann.com)—a cultural researcher and brand strategist who has spent 20 years working at the intersection of culture and technology:
+
+![2x2 Framework](docs/images/igor-2x2.jpeg)
+*My work sits at the intersection of decoding/building and culture/tech*
+
+I've operated in this space my entire career, but I never learned to code. What changed was discovering that **you cannot delegate what you cannot articulate**. When I started building AI-augmented workflows for my strategy practice, I had to make my implicit methodology explicit. This repository is the result of that journey—a documented system for making strategic thinking executable, built through doing rather than coding.
 
 ## What is this?
 
@@ -83,8 +92,6 @@ When you write your decision rules explicitly - in plain markdown - they become:
 
 This isn't about making AI work like you. It's about making your work more explicit, which benefits both humans and AI.
 
-Read more: [Strategy-as-Protocol essay](https://thenew.igorschwarzmann.com/p/strategy-as-protocol)
-
 ## What this is NOT
 
 - ❌ A product to install
@@ -135,6 +142,6 @@ Read the [FAQs](docs/08-faqs.md) or open an issue for clarification.
 
 ## About
 
-Created by [Igor Schwarzmann](https://igorschwarzmann.com) - strategic consultant specializing in AI strategy and cultural research.
+Created by Igor Schwarzmann - strategic consultant specializing in AI strategy and cultural research.
 
-This architecture powers 15+ years of client work and is the practical implementation of concepts from the [Strategy-as-Protocol](https://thenew.igorschwarzmann.com/p/strategy-as-protocol) essay.
+This architecture powers 15+ years of client work. Read the full thinking behind this approach in [Strategy-as-Protocol](https://thenew.igorschwarzmann.com/p/strategy-as-protocol).
