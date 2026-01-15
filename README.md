@@ -29,8 +29,8 @@ A documented reference architecture showing how markdown-based knowledge systems
 
 - ✅ Architectural patterns and concepts
 - ✅ Decision frameworks and trade-offs
-- ✅ Template structures with placeholders
-- ✅ Example prompts for Claude Code
+- ✅ Documentation explaining the thinking
+- ✅ Guidance for building your own
 
 **What we DON'T provide:**
 
@@ -79,10 +79,7 @@ A documented reference architecture showing how markdown-based knowledge systems
 
 ## What you'll find here
 
-- **[/docs/](docs/)**: Comprehensive guides for each layer
-- **[/templates/](templates/)**: Ready-to-use templates with placeholders
-- **[/examples/](examples/)**: Sanitized real-world usage examples
-- **[/scripts/](scripts/)**: Optional automation helpers
+- **[/docs/](docs/)**: Comprehensive guides explaining the architecture and thinking
 
 ## Philosophy
 
@@ -114,21 +111,8 @@ This isn't about making AI work like you. It's about making your work more expli
 
 1. Read [Philosophy](docs/00-philosophy.md) to understand the "why"
 2. Follow [Getting Started Guide](docs/01-getting-started.md) to pick your entry point
-3. Browse [Templates](templates/) to see structure
-4. Check [Examples](examples/) to see real usage
-5. Adapt to your needs - don't replicate blindly
-
-## Privacy & Customization
-
-All templates use placeholders like `{VAULT_PATH}`, `{PROJECT_NAME}`, `{RAG_HOST}`.
-
-Before using:
-1. Copy templates and remove `.template` extension
-2. Replace all `{PLACEHOLDERS}` with your values
-3. Fill in strategic docs with your methodologies
-4. Adapt structure to your domain
-
-See [Getting Started](docs/01-getting-started.md) for details.
+3. Use the documentation to understand the patterns
+4. Build your own version based on your needs - don't replicate
 
 ## Contributing
 

@@ -133,9 +133,8 @@ You'll benefit from this if:
 ## Next Steps
 
 1. Read [Getting Started](01-getting-started.md) to pick your entry point
-2. Explore [Templates](../templates/) to see the structure
-3. Check [Examples](../examples/) to see real usage
-4. Adapt to your needs—don't replicate blindly
+2. Read the documentation to understand the patterns
+3. Build your own version based on your needs—don't replicate
 
 ---
 

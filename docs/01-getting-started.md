@@ -66,7 +66,6 @@ type: research
 ```
 
 **Read next:** [PARA Organization](02-para-organization.md) for full details
-**Use template:** [templates/vault/](../templates/vault/) for folder structure
 
 **Success metric:** You can find any note within 30 seconds, and you know where new notes should go.
 
@@ -111,7 +110,6 @@ type: research
 ```
 
 **Read next:** [Claude Configuration](04-claude-configuration.md) for full structure
-**Use template:** [templates/claude-global/CLAUDE.md.template](../templates/claude-global/CLAUDE.md.template)
 
 **Success metric:** Claude Code follows your patterns without being reminded, and you catch yourself referencing your own CLAUDE.md for guidance.
 
@@ -145,7 +143,6 @@ type: research
 4. **Skills**: Custom \`/query-collection\` commands
 
 **Read next:** [RAG Infrastructure](06-rag-infrastructure.md) for full setup
-**Use template:** [templates/vault/.claude/agent_docs/rag-collections.yaml.template](../templates/vault/.claude/agent_docs/rag-collections.yaml.template)
 
 **Success metric:** You query your vault conversationally and get relevant results you wouldn't have found with keyword search.
 
@@ -277,8 +274,6 @@ This repository shows how to INTEGRATE these concepts, not how to use them indiv
 
 **Or explore:**
 - [Philosophy](00-philosophy.md) - Why explicit protocols matter
-- [Templates](../templates/) - Ready-to-use structure
-- [Examples](../examples/) - Real usage patterns
 - [FAQs](08-faqs.md) - Common questions
 
 ---
