@@ -1,13 +1,14 @@
-# Examples (Unpublished)
+# Examples (Experimental)
 
-**Status:** Work in progress - not linked from main documentation
+**Status:** Experimental patterns - not part of main documentation yet
 
-This folder contains real implementation examples that may be:
-- Too specific to be immediately useful
-- Containing patterns that need abstraction
-- Works in progress awaiting documentation
+This folder contains real implementation examples that are:
 
-These serve as reference material for creating abstracted patterns in the main docs.
+- Works in progress
+- Too specific to be immediately useful without adaptation
+- Awaiting abstraction into general patterns
+
+These serve as reference material for developing the patterns documented in `/docs/`.
 
 ## Current Examples
 
