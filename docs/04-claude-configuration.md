@@ -70,6 +70,198 @@ Claude uses the project override: quick notes for this project, comprehensive ev
 
 ---
 
+## Three-Tier Pattern with Delegation (Advanced)
+
+The two-tier system works well initially, but as your setup grows, you may find yourself duplicating operational details across multiple vaults or projects. The three-tier pattern solves this through **delegation**.
+
+### When You Need This
+
+**The two-tier system breaks down when you have:**
+
+- Multiple vaults sharing the same infrastructure (RAG server, remote machines)
+- Operational procedures duplicated across vault configs
+- Infrastructure changes requiring updates to multiple CLAUDE.md files
+- A mix of vault-specific context and shared operations
+
+**Signals you're ready for three-tier:**
+
+- You copy-paste RAG operations between vault CLAUDE.md files
+- You maintain the same infrastructure details in multiple places
+- You have 2+ vaults/projects with overlapping infrastructure
+- You want a single source of truth for operations
+
+### The Delegation Pattern
+
+Instead of duplicating operational details, vaults **declare what they have** and **delegate how it works** to the global config.
+
+**Structure:**
+
+```
+~/.claude/
+  └── CLAUDE.md              # Operations & infrastructure (how)
+  └── agent_docs/            # Global workflows
+
+{vault_1}/.claude/
+  └── CLAUDE.md              # Context & delegation (what + pointer)
+  └── agent_docs/            # Vault-specific docs
+
+{vault_2}/.claude/
+  └── CLAUDE.md              # Context & delegation (what + pointer)
+  └── agent_docs/            # Vault-specific docs
+```
+
+**Information flow:**
+
+1. **Global** defines **how operations work** (procedures, infrastructure, commands)
+2. **Vault** defines **what it provides** (collections, paths, structure) + **delegates** operations to global
+3. **Project** (optional) provides **overrides** for specific needs
+
+### Example: RAG System Delegation
+
+**Global CLAUDE.md** (`~/.claude/CLAUDE.md`):
+
+```markdown
+### RAG System Operations
+
+**SINGLE SOURCE OF TRUTH**: `brain dead/.claude/agent_docs/rag-collections.yaml`
+
+**Infrastructure:**
+- Host: Mac Mini at igor-dom.nord, port 8000
+- Ollama version: 0.13.5
+- Embedding model: nomic-embed-text
+- RAG path: /Volumes/Storage/RAG
+
+**BEFORE any RAG operation** (re-index, create collection, query troubleshooting):
+1. READ `rag-collections.yaml` for current collection definitions
+2. Check collection exists, get correct ingest script name, recommended n_results
+
+**AFTER any collection change** (create, update, delete, re-index):
+1. UPDATE `rag-collections.yaml` with new chunk counts, dates, or collection entries
+2. This keeps the registry accurate for future operations
+
+**Service check**: `pgrep -f mcp_server.py` before operations
+
+**Quick reference**:
+```bash
+# Health check
+curl -H 'X-API-Key: {YOUR_API_KEY}' http://{RAG_HOST}:{RAG_PORT}/health
+
+# Re-index (see rag-collections.yaml for collection-specific commands)
+ssh {RAG_HOST} 'cd /Volumes/Storage/RAG && source venv/bin/activate && python scripts/ingest_vault.py'
+```
+
+**Detailed documentation**: See `brain dead/.claude/agent_docs/rag-operations.md`
+```
+
+**Vault CLAUDE.md** (`{vault}/.claude/CLAUDE.md`):
+
+```markdown
+## RAG Collections Available
+
+This vault provides access to the following RAG collections (see global CLAUDE.md for RAG operations):
+
+- **braindead** - Full Brain Dead vault (primary collection)
+- **readwise** - Readwise highlights and annotations
+- **2025_portfolio** - Portfolio work and case studies
+- **whatsapp** - WhatsApp conversation history (via whatsapp skill)
+
+**Collection registry**: [.claude/agent_docs/rag-collections.yaml](.claude/agent_docs/rag-collections.yaml)
+
+## Vault-Specific Workflows
+
+For detailed vault operations, see:
+
+- **YAML frontmatter requirements**: [agent_docs/yaml-frontmatter.md](.claude/agent_docs/yaml-frontmatter.md)
+- **RAG metadata filtering**: [2. Areas/RAG/metadata_filtering_usage.md](2.%20Areas/RAG/metadata_filtering_usage.md)
+```
+
+**Key delegation phrase:** `"see global CLAUDE.md for RAG operations"`
+
+### What Goes Where
+
+**Global CLAUDE.md:**
+- ✅ Infrastructure details (hosts, ports, paths)
+- ✅ Operational procedures (how to re-index, query, maintain)
+- ✅ Cross-cutting workflows (file operations, documentation style)
+- ✅ Professional context and quality standards
+- ✅ References to global `agent_docs/` and `strategic_docs/`
+
+**Vault CLAUDE.md:**
+- ✅ Vault structure (PARA paths, organization)
+- ✅ Available collections (what this vault provides)
+- ✅ Collection registry location (local `rag-collections.yaml`)
+- ✅ References to vault-specific `agent_docs/`
+- ✅ Delegation statements (`"see global CLAUDE.md for X"`)
+
+**Project CLAUDE.md (optional):**
+- ✅ Project-specific overrides
+- ✅ Temporary exceptions to global rules
+- ✅ Client-specific constraints
+
+### Benefits of Delegation
+
+**Single source of truth:**
+- Infrastructure changes update once (global)
+- No duplicate operational procedures
+- Consistency across all vaults
+
+**Clear separation of concerns:**
+- Operations live globally (how it works)
+- Context lives locally (what it has)
+- Overrides live at project level (exceptions)
+
+**Maintenance efficiency:**
+- Update RAG host once, affects all vaults
+- Change embedding model once, everywhere knows
+- Add workflow preference once, available everywhere
+
+**Scales naturally:**
+- Add new vaults without duplicating infrastructure
+- Each vault declares only what makes it unique
+- Global config grows slowly (operations change rarely)
+
+### Migration Path
+
+**From two-tier to three-tier:**
+
+1. **Identify duplication** - What's repeated across vault configs?
+2. **Extract operations** - Move procedures to global CLAUDE.md
+3. **Add delegation** - Replace duplicated text with "see global CLAUDE.md"
+4. **Keep context local** - Leave vault-specific details (paths, collections) in vault config
+5. **Test** - Ask Claude about RAG operations from different vaults
+
+**Example migration:**
+
+*Before (duplicated):*
+- `vault_1/.claude/CLAUDE.md` - 200 lines including RAG operations
+- `vault_2/.claude/CLAUDE.md` - 200 lines including RAG operations
+- Changes require updating both files
+
+*After (delegated):*
+- `~/.claude/CLAUDE.md` - +100 lines for RAG operations (once)
+- `vault_1/.claude/CLAUDE.md` - 50 lines (context + delegation)
+- `vault_2/.claude/CLAUDE.md` - 50 lines (context + delegation)
+- Changes update global file only
+
+### When to Use
+
+**Stick with two-tier if:**
+- You work primarily in one vault
+- Your setup is simple (local RAG, no remote infrastructure)
+- You don't mind some duplication
+- You're just getting started
+
+**Upgrade to three-tier when:**
+- You have 2+ vaults sharing infrastructure
+- You're copy-pasting operational details between configs
+- Infrastructure changes affect multiple vaults
+- You want clear separation: operations (global) vs. context (vault)
+- Your system has matured beyond experimental stage
+
+**This pattern scales.** It's not required for everyone, but it solves real problems as complexity grows. Start simple, evolve when you feel the pain.
+
+---
+
 ## What to Put in CLAUDE.md
 
 ### Workflow Preferences
