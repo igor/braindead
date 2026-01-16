@@ -116,32 +116,43 @@ Trusted reference → Markdown structure → RAG index → Custom skill → Conv
 
 ## Pattern 4: Progressive Knowledge Capture
 
-**Concept:** Extract reusable insights from project work into Resources.
+**Concept:** Build reusable methodologies from your own learning and public work.
 
 **How it integrates:**
-```
-Client project teaches you something →
-Extract methodology to 3. Resources/ →
-Add frontmatter (type: reference, scope: internal) →
-Index in RAG collection →
-Now queryable for future projects
-```
+
+1. You experiment with an approach in personal projects →
+2. Document what worked in `3. Resources/` →
+3. Add frontmatter (`type: reference, scope: internal`) →
+4. Index in RAG collection →
+5. Now queryable for future projects
 
 **Why folder structure matters:**
 
-- **1. Projects/** - Active, client-specific, temporary
-- **3. Resources/** - Generalized, reusable, permanent
-- **4. Archive/** - Completed, historical, searchable
+- **1. Projects/** - Active work (personal or client)
+- **3. Resources/** - Your methodologies, frameworks, learnings
+- **4. Archive/** - Completed work, searchable history
 
 **Integration points:**
 
-- **PARA** separates temporary (Projects) from permanent (Resources)
-- **Frontmatter** marks what's client-specific vs generalizable
-- **Archive strategy** keeps past work searchable without cluttering active work
-- **RAG** finds patterns across all three domains
-- **Skills** can filter by scope (client vs internal)
+- **PARA** separates active work from reusable knowledge
+- **Frontmatter** marks what's methodology vs application
+- **Archive** keeps past experiments searchable
+- **RAG** finds patterns across your body of work
+- **Skills** can filter by type (methodology, example, template)
 
-**Value:** Client work compounds. Each project adds to your knowledge base instead of living in isolated folders.
+**Examples of what to capture:**
+
+- ✅ Frameworks you develop through multiple projects
+- ✅ Your public writing (blog posts, talks, articles)
+- ✅ Open source contributions and learnings
+- ✅ Personal experiments and what you learned
+- ✅ Research you conduct independently
+
+**Value:** Your practice evolves. Each experiment, each piece of public work, each framework you develop adds to your knowledge base.
+
+**What NOT to capture:**
+
+Client-specific insights, proprietary methodologies, or confidential information belong in project folders and archives, not in Resources. Keep client work separate and respect confidentiality.
 
 ---
 
